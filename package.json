@@ -8,7 +8,7 @@
     "lite": "lite-server",
     "typings": "typings",
     "postinstall": "typings install",
-    "deploy": "ng build -prod -sm -ec -bh todoitem && gh-pages -d dist"
+    "deploy": "ng build -prod -sm -ec -bh todoitem && /gh-pages/ -d dist"
   },
   "license": "ISC",
   "dependencies": {
