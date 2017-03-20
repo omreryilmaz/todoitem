@@ -8,7 +8,7 @@
     "lite": "lite-server",
     "typings": "typings",
     "postinstall": "typings install",
-    "deploy": "ng build -sm -ec -bh /repo name/ & ngh --silent=false"
+    "deploy": "ng build -sm -ec -bh todoitem & ngh --silent=false"
   },
   "license": "ISC",
   "dependencies": {
